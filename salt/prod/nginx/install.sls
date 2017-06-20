@@ -1,6 +1,7 @@
 include:
   - pcre.install
   - user.www
+  - pkg.pkg-init
 nginx-source-install:
   file.managed:
     - name: /usr/local/src/nginx-1.9.1.tar.gz
