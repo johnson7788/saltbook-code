@@ -1,3 +1,5 @@
+include:
+  - user.www
 pkg-php:
   pkg.installed:
     - names:
